@@ -1,6 +1,12 @@
-# Upgrades:
+## Upgrades:
 
-To do list...
+# Programs changes:
+
+(20240611): 
+- fix bug: switch state detection
+- random reaction case after 10 turns
+
+# To do list...
 
 lid:
 - hide pins
@@ -19,13 +25,7 @@ box:
 - bottom servo base
 - snap fit for chip 
 - chip USB-C opening
-
-Programs changes:
-
-(20240611): 
-- fix bug: switch state detection
-- random reaction case after 10 turns
-
+- 
 
 # Smart Useless Box with ESP8266 and Gesture Sensor
 
