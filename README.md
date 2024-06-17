@@ -1,12 +1,12 @@
-## Upgrades:
+# Upgrades:
 
-# Programs changes:
+## Programs changes:
 
 (20240611): 
 - fix bug: switch state detection
 - random reaction case after 10 turns
 
-# To do list...
+## CAD: To do list...
 
 lid:
 - hide pins
@@ -27,6 +27,7 @@ box:
 - chip USB-C opening
 - 
 
+# Original documentation
 # Smart Useless Box with ESP8266 and Gesture Sensor
 
 A useless box made smarter with an ESP8266 microcontroller on a Wemos D1 Mini board and an APDS-9960 proximity sensor to give more funny responses.
