@@ -1,3 +1,32 @@
+# Upgrades:
+
+To do list...
+
+lid:
+- hide pins
+- color text : 
+
+fixed-lid: 
+- snap fit for sensor
+- pin hole for switch
+- snap fit for servo
+- text: open - close
+
+box:
+- left top hole support hinders servo body
+- 4x top holes too big for 2.85mm pins
+- lid joint too loose
+- bottom servo base
+- snap fit for chip 
+- chip USB-C opening
+
+Programs changes:
+
+(20240611): 
+- fix bug: switch state detection
+- random reaction case after 10 turns
+
+
 # Smart Useless Box with ESP8266 and Gesture Sensor
 
 A useless box made smarter with an ESP8266 microcontroller on a Wemos D1 Mini board and an APDS-9960 proximity sensor to give more funny responses.

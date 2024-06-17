@@ -1,0 +1,21 @@
+SUM: 80.3
+
+1X 18.02
+WEMOS D1 mini ESP8266 USB C
+https://erli.pl/produkt/modul-wifi-wemos-d1-mini-esp8266-12f-arduino-iot,145459971
+
+1X 19.4
+APDS-9960 RGB, gesture and proximity sensor
+https://erli.pl/produkt/czujnik-swiatla-rgb-i-wykrywacz-gestow-apds-9960,185037548
+
+2X 12.58
+Serwo SG-90 - micro - 180
+https://erli.pl/produkt/serwo-modelarskie-9g-sg90-micro-180,187494326
+
+1X 8.26
+Przełącznik dźwigniowy dwupozycyjny (SPDT 3P)
+https://erli.pl/produkt/przelacznik-dzwigniowy-dwupozycyjny-spdt-3p,170778692
+
+2X 4.73
+Przełącznik dźwigniowy pojedynczy (SPDT 3P)
+https://erli.pl/produkt/przelacznik-dzwigniowy-pojedynczy-spdt-3p,170778687

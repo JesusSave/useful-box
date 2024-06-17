@@ -43,6 +43,8 @@ uint8_t ProximitySensor::getProximity() {
     return _lastProximityValue;
   } else {
     Serial.println(F("ProximitySensor: Reading proximity value FAILED!"));
+    // 确保在所有情况下都有一个返回值
+    return 0; // 或者返回一个适当的默认值
   }
 }
 

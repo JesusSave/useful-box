@@ -1,0 +1,75 @@
+/*
+20240605: this is origial from 
+https://github.com/balassy/useless-box.git
+but moves too slow
+
+$ cat /etc/os-release 
+PRETTY_NAME="Ubuntu 24.04 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+
+$ arduino-cli version
+arduino-cli  Version: 0.35.3 Commit: 95cfd654 Date: 2024-02-19T13:24:24Z
+
+$ arduino-cli lib list
+Name                Installed Available Location              Description
+ArduinoJson         7.0.4     -         LIBRARY_LOCATION_USER -
+AsyncTCP            1.1.4     -         LIBRARY_LOCATION_USER -
+ESP Async WebServer 2.10.0    2.10.1    LIBRARY_LOCATION_USER Asynchronous HTTP and WebSocket Serve...
+ESP32Servo          1.2.1     -         LIBRARY_LOCATION_USER -
+ESPAsyncTCP         1.2.4     -         LIBRARY_LOCATION_USER -
+ESPAsyncWebServer   3.1.0     -         LIBRARY_LOCATION_USER -
+Servo               1.2.1     -         LIBRARY_LOCATION_USER -
+ServoESP32          1.0.3     1.1.1     LIBRARY_LOCATION_USER Generate RC servo signal on a selecte...
+*/
+#include "speed-servo.h"
+
+const int SLOW_MOVE_DELAY = 15;
+const int Fast_MOVE_DELAY = 2;
+
+void SpeedServo::attach(uint8_t pin) {
+  _servo.attach(pin);
+}
+
+// Valid position: 0-180.
+void SpeedServo::moveNowTo(int newPosition) {
+  _lastPosition = newPosition;
+  _servo.write(newPosition);
+}
+
+// Valid position: 0-180.
+void SpeedServo::moveFastTo(int newPosition) {
+  _moveTo(newPosition, Fast_MOVE_DELAY);
+}
+
+// Valid position: 0-180.
+void SpeedServo::moveSlowTo(int newPosition) {
+  _moveTo(newPosition, SLOW_MOVE_DELAY);
+}
+
+// Valid position: 0-180.
+void SpeedServo::_moveTo(int newPosition, unsigned long stepDelay) {
+  if(newPosition > _lastPosition) {
+    for (int pos = _lastPosition; pos <= newPosition; pos++) {
+      _servo.write(pos);
+      delay(stepDelay);
+    }
+  } else {
+    for (int pos = _lastPosition; pos >= newPosition; pos--) {
+      _servo.write(pos);
+      delay(stepDelay);
+    }
+  }
+
+  _lastPosition = newPosition;
+}

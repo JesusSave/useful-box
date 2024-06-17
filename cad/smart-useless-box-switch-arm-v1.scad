@@ -1,0 +1,1 @@
+import("/home/qchen/Documents/Techs/arduino/esp8266/useless-box/3d1/smart-useless-box-switch-arm-v1.stl", convexity=3);
