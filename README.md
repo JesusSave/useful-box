@@ -6,7 +6,12 @@
 - fix bug: switch state detection
 - random reaction case after 10 turns
 
-## CAD: To do list...
+## CAD: 
+Origianl CAD in .step and .stl, new versions are mainly by Solidworks, FreeCAD, and OpenSCAD. 
+
+Color printer uses Prusa XL.
+
+## To do list...
 
 lid:
 - hide pins
@@ -25,7 +30,24 @@ box:
 - bottom servo base
 - snap fit for chip 
 - chip USB-C opening
-- 
+
+## Purchashing parts
+1X 18.02 PLN
+WEMOS D1 mini ESP8266 USB C
+https://erli.pl/produkt/modul-wifi-wemos-d1-mini-esp8266-12f-arduino-iot,145459971
+
+1X 19.4 PLN
+APDS-9960 RGB, gesture and proximity sensor
+https://erli.pl/produkt/czujnik-swiatla-rgb-i-wykrywacz-gestow-apds-9960,185037548
+
+2X 12.58 PLN
+Serwo SG-90 - micro - 180
+https://erli.pl/produkt/serwo-modelarskie-9g-sg90-micro-180,187494326
+
+1X 4.73 PLN
+Przełącznik dźwigniowy pojedynczy (SPDT 3P)
+https://erli.pl/produkt/przelacznik-dzwigniowy-pojedynczy-spdt-3p,170778687
+
 
 # Original documentation
 # Smart Useless Box with ESP8266 and Gesture Sensor
