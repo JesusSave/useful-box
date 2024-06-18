@@ -32,25 +32,20 @@ box:
 - snap fit for chip 
 - chip USB-C opening
 
-## Purchashing parts
-1X 18.02 PLN
-WEMOS D1 mini ESP8266 USB C
-https://erli.pl/produkt/modul-wifi-wemos-d1-mini-esp8266-12f-arduino-iot,145459971
+## Purchashing parts (Poland local)
+- 1X 18.02 PLN
+[WEMOS D1 mini ESP8266 USB C](https://erli.pl/produkt/modul-wifi-wemos-d1-mini-esp8266-12f-arduino-iot,145459971)
 
-1X 19.4 PLN
-APDS-9960 RGB, gesture and proximity sensor
-https://erli.pl/produkt/czujnik-swiatla-rgb-i-wykrywacz-gestow-apds-9960,185037548
+- 1X 19.4 PLN
+[APDS-9960 RGB, gesture and proximity sensor](https://erli.pl/produkt/czujnik-swiatla-rgb-i-wykrywacz-gestow-apds-9960,185037548)
 
-2X 12.58 PLN
-Serwo SG-90 - micro - 180
-https://erli.pl/produkt/serwo-modelarskie-9g-sg90-micro-180,187494326
+- 2X 12.58 PLN
+[Serwo SG-90 - micro - 180](https://erli.pl/produkt/serwo-modelarskie-9g-sg90-micro-180,187494326)
 
-1X 4.73 PLN
-Przełącznik dźwigniowy pojedynczy (SPDT 3P)
-https://erli.pl/produkt/przelacznik-dzwigniowy-pojedynczy-spdt-3p,170778687
+- 1X 4.73 PLN
+[Przełącznik dźwigniowy pojedynczy (SPDT 3P)](https://erli.pl/produkt/przelacznik-dzwigniowy-pojedynczy-spdt-3p,170778687)
 
-
-# Original documentation
+# Original documentation from [György Balássy](https://linkedin.com/in/balassy)
 # Smart Useless Box with ESP8266 and Gesture Sensor
 
 A useless box made smarter with an ESP8266 microcontroller on a Wemos D1 Mini board and an APDS-9960 proximity sensor to give more funny responses.
