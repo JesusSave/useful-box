@@ -1,4 +1,5 @@
 # Upgrades:
+Tested with [Arduino-cli](https://github.com/arduino/arduino-cli) 0.35.3.
 
 ## Programs changes:
 
