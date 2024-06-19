@@ -19,6 +19,7 @@ LOGO=ubuntu-logo
 
 $ arduino-cli version
 arduino-cli  Version: 0.35.3 Commit: 95cfd654 Date: 2024-02-19T13:24:24Z
+arduino-cli  Version: 1.0.0 Commit: 05c9852a Date: 2024-06-12T14:13:32Z
 
 Used library Version Path
 Servo        1.0.2   /home/qchen/.arduino15/packages/esp8266/hardware/esp8266/3.1.2/libraries/Servo                                                                     

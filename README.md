@@ -1,5 +1,5 @@
 # Upgrades:
-Tested with [Arduino-cli](https://github.com/arduino/arduino-cli) 0.35.3.
+Tested with [Arduino-cli](https://github.com/arduino/arduino-cli) 0.35.3 and 1.0.0.
 
 ## Programs changes:
 
@@ -45,7 +45,14 @@ box:
 - 1X 4.73 PLN
 [Przełącznik dźwigniowy pojedynczy (SPDT 3P)](https://erli.pl/produkt/przelacznik-dzwigniowy-pojedynczy-spdt-3p,170778687)
 
-# Original documentation from [György Balássy](https://linkedin.com/in/balassy)
+## PCB v2
+[![pcb v2 scheme](./wiring/pcb_v2_scheme.svg)]
+[![pcb v2 raw material preparation](./wiring/pcb_v2_preparation.jpg)]
+[![pcb v2 after soldering](./wiring/pcb_v2_soldering.jpg)]
+[![pcb v2 prototype](./wiring/pcb_v2_prototype.jpg)]
+[![pcb v2 wiring](./wiring/pcb_v2_wiring.jpg)]
+
+# ORIGINAL DOCUMENTATION OF [György Balássy](https://linkedin.com/in/balassy)
 # Smart Useless Box with ESP8266 and Gesture Sensor
 
 A useless box made smarter with an ESP8266 microcontroller on a Wemos D1 Mini board and an APDS-9960 proximity sensor to give more funny responses.

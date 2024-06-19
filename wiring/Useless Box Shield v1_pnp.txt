@@ -1,0 +1,27 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=Useless Box Shield v1
+*Date=23:33:46
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;23.6689;-27.6204;0;Bottom;TXT3
+2;;;12.7442;-1.52815;0;Bottom;TXT1
+3;;THT;6.35711;-12.8049;0;Bottom;Sensor
+4;;THT;19.0571;-15.3449;0;Bottom;Arm Servo
+5;1k;THT;11.4371;-25.5049;0;Bottom;R1
+6;;;1.22436;-5.62124;0;Bottom;TXT3
+7;;;1.22613;-27.6858;0;Bottom;TXT3
+8;;;12.7071;-20.5054;180;Bottom;Useless Box Shield
+9;;THT;11.4371;-15.3449;0;Bottom;Lid Servo
+10;;;11.2776;-23.3716;0;Bottom;Via1
+11;;THT;17.7871;-5.18494;90;Bottom;Switch
+12;;;23.799;-5.64897;0;Bottom;TXT3
