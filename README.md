@@ -1,5 +1,5 @@
-# Upgrades:
-Tested with [Arduino-cli](https://github.com/arduino/arduino-cli) 0.35.3 and 1.0.0.
+# V2 Upgrades:
+Tested with [Arduino-cli](https://github.com/arduino/arduino-cli) 0.35.3 and 1.0.1.
 
 ## Programs changes:
 
@@ -46,11 +46,11 @@ box:
 [Przełącznik dźwigniowy pojedynczy (SPDT 3P)](https://erli.pl/produkt/przelacznik-dzwigniowy-pojedynczy-spdt-3p,170778687)
 
 ## PCB v2
-[![pcb v2 scheme](./wiring/pcb_v2_scheme.svg)]
-[![pcb v2 raw material preparation](./wiring/pcb_v2_preparation.jpg)]
-[![pcb v2 after soldering](./wiring/pcb_v2_soldering.jpg)]
-[![pcb v2 prototype](./wiring/pcb_v2_prototype.jpg)]
-[![pcb v2 wiring](./wiring/pcb_v2_wiring.jpg)]
+![pcb v2 scheme](./wiring/pcb_v2_scheme.svg)
+![pcb v2 raw material preparation](./wiring/pcb_v2_preparation.jpg)
+![pcb v2 after soldering](./wiring/pcb_v2_soldering.jpg)
+![pcb v2 prototype](./wiring/pcb_v2_prototype.jpg)
+![pcb v2 wiring](./wiring/pcb_v2_wiring.jpg)
 
 # ORIGINAL DOCUMENTATION OF [György Balássy](https://linkedin.com/in/balassy)
 # Smart Useless Box with ESP8266 and Gesture Sensor

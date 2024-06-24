@@ -33,4 +33,5 @@ if [ $? -ne 0 ]; then
 fi
 
 # 启动串口监视器
-arduino-cli monitor -p $SERIAL_PORT -c $BAUD_RATE
+#arduino-cli monitor -p $SERIAL_PORT -c $BAUD_RATE # Arduino-cli 0.35.3
+arduino-cli monitor -p $SERIAL_PORT -c $BAUD_RATE --fqbn $FQBN $PROJECT_PATH
